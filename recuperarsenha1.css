@@ -1,0 +1,60 @@
+.quadro
+{
+    position: relative;
+    border: 2px solid rgb(13, 15, 62);
+    width: 599px;
+    height: 299px;
+    left: 360px;
+    top: 40px;
+}
+h1
+{
+    font-family: 'Roboto';
+    text-align: center;
+    color: white;
+}
+.linha
+{
+    border: 1px solid rgb(14, 14, 72);
+    position: relative;
+    width: 600px;
+    height: 70px;
+    right: 1px;
+    bottom: 80px;
+    background-color:rgb(19, 19, 82);
+}
+.email1
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 100px;
+    top: 160px;
+    border: 2px solid black;
+}
+.email
+{
+    box-sizing: border-box;
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 210px;
+    bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+button
+{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    left: 200px;
+    top: 230px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgb(19, 19, 82);
+    color: white;
+    cursor: pointer;
+    
+}

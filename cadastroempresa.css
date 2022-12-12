@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1
+{
+    color: white;
+}
+header 
+{   
+    background-color: rgb(19, 19, 82);
+}
+
+li
+{
+    display: inline-block;
+    margin: 15px;
+    color: #ffffff;
+    
+}
+li:hover
+{    
+     color: rgb(0, 0, 0);     transition: 0.20s all; 
+}
+
+hgroup
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+body
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 56px;
+    color: #000000; 
+}
+hgroup
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.loginpj
+{
+    position: absolute;
+    width: 350px;
+    height: 87px;
+    left: 850px;
+    top: 210px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: rgb(19, 19, 82);
+    color: white;
+    cursor: pointer;
+}
+
+.loginpj1
+{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 875px;
+    top: 320px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.cadpj
+{
+    position: absolute;
+    width: 350px;
+    height: 87px;
+    left: 850px;
+    top: 550px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: rgb(19, 19, 82);
+    cursor: pointer;
+    color: white;
+}
+
+.cadpj1
+{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 875px;
+    top: 660px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.loginpf
+{
+    position: absolute;
+    width: 350px;
+    height: 87px;
+    left: 150px;
+    top: 210px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: rgb(19, 19, 82);
+    color: white;
+    cursor: pointer;
+}
+
+
+.loginpf1
+{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    left: 150px;
+    top: 330px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.cadpf
+{
+    position: absolute;
+    width: 350px;
+    height: 87px;
+    left: 150px;
+    top: 550px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: rgb(19, 19, 82);
+    color: white;
+    cursor: pointer;
+}
+.cadpf1
+{
+    position: absolute;
+    width: 350px;
+    height: 80px;
+    left: 150px;
+    top: 660px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+

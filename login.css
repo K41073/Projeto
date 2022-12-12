@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+}
+h1
+{
+    color: white;
+}
+header
+{
+    background-color: rgb(19, 19, 82);
+     
+}
+hgroup
+{
+   position: relative;
+    width: 566px;
+    height: 83px;
+    left: 80px;
+    top: 15px;
+}
+.email
+{
+    position: relative;
+    width: 300px;
+    height: 50px;
+    left: 340px;
+    top: 120px;
+    
+}
+.email1
+{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 420px;
+    top: 70px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.senha
+{
+
+    position: relative;
+    width: 300px;
+    height: 50px;
+    right: 40px;
+    top: 230px;
+}
+.senha1
+{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    left: 35px;
+    top: 180px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.botao_login
+{
+    position: relative;
+    width: 120px;
+    height: 45px;
+    right: 340px;
+    top: 335px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #1e3774;
+    color: white;
+    cursor: pointer;
+}
+
+.botao_esquecisenha
+{
+    position: relative;
+    width: 150px;
+    height: 45px;
+    right: 330px;
+    top: 335px;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #1e3774;
+    color: white;
+    cursor: pointer;
+}
+
+.sem_cadastro{
+    position: relative;
+    right: 622px;
+    top: 280px;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width:576px) {  
+    .email
+    {
+        
+        position: relative;
+        width: 300px;
+        height: 50px;
+        left: 75px;
+        top: 100px;
+    }
+    .email1
+    {
+        box-sizing: border-box;
+        position: relative;
+        width: 100px;
+        height: 30px;
+        left: 155px;
+        top: 60px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+       
+    .senha
+    {
+        position: relative;
+        width: 300px;
+        height: 50px;
+        left: 150px;
+        top: 150px;
+    }
+    .senha1
+    {
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        left: 155px;
+        top: 245px;
+        
+    }
+    
+    .botao_login
+    {
+        position: relative;
+        width: 120px;
+        height: 45px;
+        right: 150px;
+        top: 250px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: #1e3774;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .botao_esquecisenha
+    {
+        position: relative;
+        width: 150px;
+        height: 45px;
+        left: 290px;
+        top: 193px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: #1e3774;
+        color: white;
+        cursor: pointer;
+    }
+
+    .sem_cadastro{
+        position: relative;
+        left: 155px;
+        top: 85px;
+        font-size: 18px;
+    }
+    
+}
+
+
+
